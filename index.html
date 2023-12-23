@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>高雄充電站簡易操作系統</h1>
+
+<h2>新增資料</h2>
+    <input placeholder="充電站名稱" class="stationName" type="text">
+    <select class="stationCharge" >
+        <option value="免費">免費</option>
+        <option value="投幣式">投幣式</option>
+    </select>
+    <input value="儲存" class="btn" type="button">
+
+<h2>資料顯示</h2>
+    <div class="filter">
+        <input type="button" value="免費">
+        <input type="button" value="投幣式">
+        <input type="button" value="檢視全部">
+    </div>
+
+    <ul class="list">
+        <li>xx充電站，免費</li>
+    </ul>
+
+<script src="./all.js"></script>
+
+</body>
+</html>
